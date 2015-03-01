@@ -67,49 +67,38 @@
     {
      "name": "Bacteroides",
      "children": [
-      {"name": "Bacteroides", "size": 13},
-      {"name": "Flavobacteria", "size": 5},
-      {"name": "Sphingobacteria", "size": 6},
-      {"name": "Cytophagia", "size": 6}
+      {"name": "Bacteroidaceae", "size": 13},
+      {"name": "Marinilabiliaceae", "size": 5},
+      {"name": "Porphyromonadaceae", "size": 26},
+      {"name": "Prevotellaceae", "size": 20},
+      {"name": "Rikenellaceae", "size": 6}
      ]
     },
     {
      "name": "Flavobacteria",
      "desc": "woah ok",
      "children": [
-      {"name": "AnchorControl", "size": 21},
-      {"name": "ClickControl", "size": 38},
-      {"name": "Control", "size": 13},
-      {"name": "ControlList", "size": 46},
-      {"name": "DragControl", "size": 26},
-      {"name": "ExpandControl", "size": 28},
-      {"name": "HoverControl", "size": 48},
-      {"name": "IControl", "size": 7},
-      {"name": "PanZoomControl", "size": 52},
-      {"name": "SelectionControl", "size": 78},
-      {"name": "TooltipControl", "size": 85}
+      {"name": "Blattabacteriaceae", "size": 21},
+      {"name": "Cryomorphaceae", "size": 38},
+      {"name": "Flavobacteriaceae", "size": 13},
+      {"name": "Schleiferiaceae", "size": 46}
      ]
     },
     {
      "name": "Sphingobacteria",
      "children": [
-      {"name": "Data", "size": 5},
-      {"name": "DataList", "size": 7},
-      {"name": "DataSprite", "size": 3},
-      {"name": "EdgeSprite", "size": 3},
-      {"name": "NodeSprite", "size": 3},
+      {"name": "Chitinophagaceae", "size": 5},
+      {"name": "Saprospiraceae", "size": 7},
+      {"name": "Sphingobacteriaceae", "size": 3},
       {
        "name": "Cytophagia",
        "children": [
-        {"name": "ArrowType", "size": 6},
-        {"name": "EdgeRenderer", "size": 55},
-        {"name": "IRenderer", "size": 3},
-        {"name": "ShapeRenderer", "size": 27}
+        {"name": "Cyclobacteriaceae", "size": 36},
+        {"name": "Cytophagaceae", "size": 55},
+        {"name": "Flammeovirgaceae", "size": 50},
+        {"name": "Rhodothermaceae", "size": 27}
        ]
-      },
-      {"name": "ScaleBinding", "size": 112},
-      {"name": "Tree", "size": 71},
-      {"name": "TreeBuilder", "size": 90}
+      }
      ]
     }
    ]
