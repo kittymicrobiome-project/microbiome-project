@@ -1,0 +1,119 @@
+{
+ "name": "Obese Cat",
+ "children": [
+  {
+   "name": "Firmicutes",
+   "desc": "<strong>Firmicutes</strong> are the most abundant phylum of bacteria in the gut of cats or humans. Studies of the human microbiome suggest that these bacteria are important in how we process food into energy. They could be linked to diabetes and obesity.",
+   "children": [
+    {
+     "name": "Clostridia",
+     "children": [
+      {"name": "Clostridia", "size": 1},
+      {"name": "Bacilli", "size": 2},
+      {"name": "Negativicutes", "size": 1},
+      {"name": "Erysipelotrichi", "size": 1}
+     ]
+    },
+    {
+     "name": "Bacilli",
+     "children": [
+      {"name": "BetweennessCentrality", "size": 1},
+      {"name": "LinkDistance", "size": 1},
+      {"name": "MaxFlowMinCut", "size": 1},
+      {"name": "ShortestPaths", "size": 1},
+      {"name": "SpanningTree", "size": 1}
+     ]
+    },
+    {
+     "name": "Negativicutes",
+     "children": [
+      {"name": "BetweennessCentrality", "size": 1},
+      {"name": "LinkDistance", "size": 1},
+      {"name": "MaxFlowMinCut", "size": 1},
+      {"name": "ShortestPaths", "size": 1},
+      {"name": "SpanningTree", "size": 1}
+     ]
+    },
+    {
+     "name": "Erysipelotrichi",
+     "children": [
+      {"name": "AspectRatioBanker", "size": 1}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Proteobacteria",
+   "desc": "<strong>Proteobacteria</strong> belong to a family of bacteria that are sometimes pathogenic <em>(Salmonella, Vibrio, Helicobacter, and Yersinia)</em> or can be either pathogenic or beneficial <em>(Escherichia)</em>",
+   "children": [
+    {"name": "Betaproteobacteria", "size": 0},
+    {"name": "Alphaproteobacteria", "size": 0},
+    {"name": "Betaproteobacteria", "size": 0},
+    {"name": "Gammaproteobacteria", "size": 0},
+    {"name": "Deltaproteobacteria", "size": 0},
+    {"name": "Epsilonproteobacteria", "size": 1}
+   ]
+  },
+    {
+   "name": "Actinobacteria",
+   "desc": "<strong>Actinobacteria</strong> are mostly living in soil and freshwater. But they can also be found in the skin, gastrointestinal and mucosal microbiome of people and are thought to reflect their health status. Members of the genus Bifidobacterium are highly prevalent in the human infant gut microbiome and persist in low but constant numbers in adults.",
+   "children": [
+    {"name": "Actinobacteria", "size": 6}
+   ]
+  },
+  {
+   "name": "Bacteroidetes",
+   "desc": "<strong>Bacteroidetes</strong> belong to a phylum of bacteria that are specialists in the digestion of complex polysaccharides. They are basically everywhere. They have been found in the microbiome of humans and other animals, including mice, dogs, cats, pigs, ruminants, birds, sea urchins, millipedes and termites.",
+   "children": [
+    {
+     "name": "Bacteroides",
+     "children": [
+      {"name": "Bacteroides", "size": 1},
+      {"name": "Flavobacteria", "size": 1},
+      {"name": "Sphingobacteria", "size": 1},
+      {"name": "Cytophagia", "size": 1}
+     ]
+    },
+    {
+     "name": "Flavobacteria",
+     "desc": "woah ok",
+     "children": [
+      {"name": "AnchorControl", "size": 0},
+      {"name": "ClickControl", "size": 0},
+      {"name": "Control", "size": 0},
+      {"name": "ControlList", "size": 0},
+      {"name": "DragControl", "size": 0},
+      {"name": "ExpandControl", "size": 0},
+      {"name": "HoverControl", "size": 0},
+      {"name": "IControl", "size": 0},
+      {"name": "PanZoomControl", "size": 0},
+      {"name": "SelectionControl", "size": 0},
+      {"name": "TooltipControl", "size": 0}
+     ]
+    },
+    {
+     "name": "Sphingobacteria",
+     "children": [
+      {"name": "Data", "size": 0},
+      {"name": "DataList", "size": 0},
+      {"name": "DataSprite", "size": 0},
+      {"name": "EdgeSprite", "size": 0},
+      {"name": "NodeSprite", "size": 0},
+      {
+       "name": "Cytophagia",
+       "children": [
+        {"name": "ArrowType", "size": 0},
+        {"name": "EdgeRenderer", "size": 0},
+        {"name": "IRenderer", "size": 0},
+        {"name": "ShapeRenderer", "size": 0}
+       ]
+      },
+      {"name": "ScaleBinding", "size": 0},
+      {"name": "Tree", "size": 0},
+      {"name": "TreeBuilder", "size": 0}
+     ]
+    }
+   ]
+  }
+ ]
+}

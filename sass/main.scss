@@ -206,8 +206,16 @@ body{
 
 .micro-graph{
 	width: 200px;
+	height: 200px;
 	float: left;
-	margin: 30px 30px;
+	margin-left: 30px;
+}
+
+
+.graph-title{
+	position: relative;
+	top: 130px;
+	left: 200px;
 }
 
 

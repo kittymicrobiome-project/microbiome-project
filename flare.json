@@ -1,69 +1,68 @@
 {
  "name": "flare",
+ "desc": "Every animal has its own unique diversity of bacteria in its digestive tract. Cats are no exception. How does this composition influence your feline companion?s health? That is the question that the <strong>Kitty Microbiome Project</strong> is trying to address. This web app allows you to explore the four most common bacterial phyla found in your cat and compare them with other cats.",
  "children": [
   {
    "name": "Firmicutes",
-   "desc": "<strong>Firmicutes</strong> are the most abundant phylum of bacteria in the gut of cats or humans. Studies of the human microbiome suggest that these bacteria are important in how we process food into energy. They could be linked to diabetes and obesity.",
+   "desc": "<strong>Firmicutes</strong> is the most abundant phylum of bacteria in the gut of cats or humans. Studies of the human microbiome suggest that these bacteria are important in how we process food into energy. In people, Firmicutes are linked to diabetes and obesity.",
    "children": [
     {
      "name": "Clostridia",
      "children": [
-      {"name": "Clostridia", "size": 100},
-      {"name": "Bacilli", "size": 50},
-      {"name": "Negativicutes", "size": 50},
-      {"name": "Erysipelotrichi", "size": 100}
+      {"name": "Clostridiales", "size": 100},
+      {"name": "Halanaerobiales", "size": 50},
+      {"name": "Natranaerobiales", "size": 50},
+      {"name": "Thermoanaerobacterales", "size": 100}
      ]
     },
     {
      "name": "Bacilli",
      "children": [
-      {"name": "BetweennessCentrality", "size": 100},
-      {"name": "LinkDistance", "size": 50},
-      {"name": "MaxFlowMinCut", "size": 50},
-      {"name": "ShortestPaths", "size": 50},
-      {"name": "SpanningTree", "size": 50}
+      {"name": "Bacillales", "size": 100},
+      {"name": "Lactobacillales", "size": 50},
+      {"name": "Staphylococcaceae", "size": 50},
+      {"name": "ShortestPaths", "size": 100}
      ]
     },
     {
-     "name": "Negativicutes",
+     "name": "Erysipelotrichia",
      "children": [
-      {"name": "BetweennessCentrality", "size": 35},
-      {"name": "LinkDistance", "size": 57},
-      {"name": "MaxFlowMinCut", "size": 78},
-      {"name": "ShortestPaths", "size": 59},
-      {"name": "SpanningTree", "size": 36}
+      {"name": "Erysipelotrichales", "size": 35},
+      {"name": "Negativicutes", "size": 57},
+      {"name": "Selenomonadales", "size": 78},
+      {"name": "Thermolithobacteria", "size": 99}
      ]
     },
     {
-     "name": "Erysipelotrichi",
+     "name": "Thermolithobacteria",
      "children": [
-      {"name": "AspectRatioBanker", "size": 74}
+      {"name": "Thermolithobacterales", "size": 74}
      ]
     }
    ]
   },
   {
    "name": "Proteobacteria",
-   "desc": "<strong>Proteobacteria</strong> belong to a family of bacteria that are sometimes pathogenic <em>(Salmonella, Vibrio, Helicobacter, and Yersinia)</em> or can be either pathogenic or beneficial <em>(Escherichia)</em>",
+   "desc": "<strong>Proteobacteria</strong> is a phylum of bacteria that includes some pathogens (Salmonella, Vibrio, Helicobacter, and Yersinia) as well as beneficial bacteria (Escherichia). In general, Proteobacteria are abundant in the mouth and throat and less abundant in the gut microbiome in people. Harmless strains of Escherichia coli are commonly found in the lower intestine of animals where they produce vitamin K2 and protect the intestine from invasion by pathogens.",
    "children": [
     {"name": "Betaproteobacteria", "size": 82},
-    {"name": "Alphaproteobacteria", "size": 100},
-    {"name": "Betaproteobacteria", "size": 82},
-    {"name": "Gammaproteobacteria", "size": 125},
+    {"name": "Alphaproteobacteria", "size": 50},
+    {"name": "Betaproteobacteria", "size": 182},
+    {"name": "Gammaproteobacteria", "size": 55},
     {"name": "Deltaproteobacteria", "size": 23},
     {"name": "Epsilonproteobacteria", "size": 103}
    ]
   },
     {
    "name": "Actinobacteria",
-   "desc": "<strong>Actinobacteria</strong> are mostly living in soil and freshwater. But they can also be found in the skin, gastrointestinal and mucosal microbiome of people and are thought to reflect their health status. Members of the genus Bifidobacterium are highly prevalent in the human infant gut microbiome and persist in low but constant numbers in adults.",
+   "desc": "<strong>Actinobacteria</strong> are commonly found living in soil, lakes and streams. But they can also be found in the skin, gastrointestinal and mucosal microbiome of people and are thought to reflect their health status. Members of the genus Bifidobacterium are highly prevalent in the human infant gut microbiome and they are found in low but constant numbers in adults. Its presence is associated with health benefits such as improved lactose tolerance, reduced diarrhea and preventing pathogen colonization.",
    "children": [
-    {"name": "Actinobacteria", "size": 1000}
+    {"name": "Actinobacteria", "size": 400}
    ]
   },
   {
    "name": "Bacteroidetes",
-   "desc": "<strong>Bacteroidetes</strong> belong to a phylum of bacteria that are specialists in the digestion of complex polysaccharides. They are basically everywhere. They have been found in the microbiome of humans and other animals, including mice, dogs, cats, pigs, ruminants, birds, sea urchins, millipedes and termites.",
+   "desc": "<strong>Bacteroidetes</strong> is a phylum of bacteria that specialize in the digestion of complex polysaccharides. They are found everywhere, including the microbiome of humans and other animals, such as mice, dogs, cats, pigs, ruminants, birds, sea urchins, millipedes and termites.",
    "children": [
     {
      "name": "Bacteroides",
