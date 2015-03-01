@@ -1,0 +1,134 @@
+html, body, h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'Open Sans', sans-serif; }
+
+.unanimate {
+  transform: translate(-522px, -206px) scale(0.02, 0.02); }
+
+h1 {
+  font-size: 62px;
+  margin: 0;
+  font-weight: 200; }
+
+.my-cat-image {
+  margin: 0 auto; }
+
+.my-cat-graph {
+  transition: all .5s;
+  width: 600px; }
+
+.node {
+  cursor: pointer; }
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px; }
+
+.node--leaf {
+  fill: white; }
+
+.label {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff; }
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none; }
+
+.inner-node {
+  opacity: 1; }
+
+.final {
+  opacity: 1; }
+
+body {
+  background: #e5e5e5; }
+
+.hidden {
+  display: none !important; }
+
+.my-cat-graph {
+  float: left; }
+
+.sidebar {
+  width: 30%;
+  float: left; }
+
+.my-cat-image {
+  width: 240px; }
+
+.parent-node {
+  fill: #fff !important; }
+
+.vis.upper-node {
+  fill: #ffa9f4 !important; }
+
+.vis.inner-node {
+  fill: #ff76ed !important; }
+
+.vis.lower-node {
+  fill: #ff10e0 !important; }
+
+.vis.final {
+  fill: #a90093 !important; }
+
+.util.upper-node {
+  fill: #f38282 !important; }
+
+.util.inner-node {
+  fill: #ef5353 !important; }
+
+.util.lower-node {
+  fill: #c91313 !important; }
+
+.util.final {
+  fill: #6c0a0a !important; }
+
+.analytics.upper-node {
+  fill: #fed18e !important; }
+
+.analytics.inner-node {
+  fill: #febc5b !important; }
+
+.analytics.lower-node {
+  fill: #f19102 !important; }
+
+.analytics.final {
+  fill: #8c5401 !important; }
+
+.inner-node {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s; }
+
+.final {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s; }
+
+.lower-node {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s; }
+
+.zoom-depth1 .inner-node {
+  visibility: visible;
+  opacity: 1; }
+
+.zoom-depth2 .inner-node {
+  visibility: visible;
+  opacity: 1; }
+.zoom-depth2 .lower-node {
+  visibility: visible;
+  opacity: 1; }
+
+.zoom-depth3 .inner-node {
+  visibility: visible;
+  opacity: 1; }
+.zoom-depth3 .lower-node {
+  visibility: visible;
+  opacity: 1; }
+.zoom-depth3 .final {
+  visibility: visible;
+  opacity: 1; }
